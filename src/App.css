@@ -1,0 +1,51 @@
+.app{
+    background-color: #333333;
+    padding: 15px;
+    width: 700px;
+    margin-top: 50px;
+    border-radius: 5px;
+    max-height: 100vh;
+    margin-top: 10px;
+    margin-bottom:50px ;
+}
+.singleTask{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.taskDetails{
+    text-align: left;
+    max-width: 80%;
+}
+.buttonDetails{
+    width: 20%;
+}
+.title{
+    font-size: 16px;
+    color: #fe950f;
+}
+.details{
+    margin: 0;
+    font-size: 12px;
+    color: #d8d2c3;
+}
+
+.complete, .delete{
+    border-radius: 15px;
+    font-size: 10px;
+    height: 27px;
+    padding: 0px 14px;
+}
+.delete{
+    background-color: whitesmoke;
+    color: rgba(255, 81, 0, 0.911);
+    border: 1px solid red;
+    padding: 0px 18px;
+}
+.complete{
+    background-color: rgb(245, 245, 245);
+    color: rgba(22, 138, 18, 0.89);
+    border: 1px solid rgb(94, 255, 0);
+    margin:10px;
+}
+

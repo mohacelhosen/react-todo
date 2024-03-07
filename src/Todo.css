@@ -1,0 +1,43 @@
+.mainTodo{
+    background-color: #333333;
+    padding: 15px;
+    width: 700px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.todo{
+    display: flex;
+    text-align: left;
+    color: #fef6ead2;
+    padding: 5px;
+}
+.todo input{
+    padding: 5px;
+    text-align: left;
+    border-radius: 5px;
+    border: 1px solid #ff9900be;
+    margin-top: 5px;
+}
+.todo button{
+    background-color:#ff9900 ;
+    color: rgb(236, 241, 245);
+    border-radius: 15px;
+    font-size: 10px;
+    height: 27px;
+    padding: 0px 14px;
+    border:1px solid rgba(236, 241, 245, 0.486) ;
+}
+.todo div{
+    flex-grow: 1;
+}
+
+.description input{
+    width: 400px;
+}
+
+.actionButton{
+    display: flex;
+    align-items: last baseline;
+}
+
